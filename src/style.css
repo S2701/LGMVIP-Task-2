@@ -10,7 +10,9 @@ body {
   max-width: 220px;
   margin: 5px;
 }
-
+.cen{
+  margin: 0 10px;
+}
 .navbar {
   align-items: center;
   background: #fff;
@@ -158,6 +160,7 @@ section{
   align-items:center;
 }
 .card {
+    background-color: #272727;
     box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
     padding: 30px;
     justify-content: center;

@@ -64,8 +64,8 @@ function App() {
       </div>
 
       {user && (
-        <section>
-          <div className="d-flex-row p-2 justify-center">
+        <section >
+          <div className="d-flex-row p-2 justify-center cen">
             {user.map( (data) => (
               <div className="card d-inline-flex wrap justify-content-center m-3">
                 <div className="text">
