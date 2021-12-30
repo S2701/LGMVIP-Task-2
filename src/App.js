@@ -4,7 +4,7 @@ import './style.css';
 import Loader from "react-loader-spinner";
 import "react-loader-spinner/dist/loader/css/react-spinner-loader.css";
 
-import logo from './images/GOSOLO.png'
+import logo from './images/2.png'
 import 'bootstrap/dist/css/bootstrap.css';
 import Service from './service';
 
@@ -37,7 +37,7 @@ function App() {
   return (
     <>
       <nav className="navbar fixed-top">
-        <div className="logo"><img src={logo} alt="LOGO"></img></div>
+        <div className="logo"><img src={logo} className="class" alt="LOGO"></img></div>
         <div className="push-left">
           <button id="menu-toggler" data-className="menu-active" className="hamburger">
             <span className="hamburger-line hamburger-line-top"></span>
@@ -54,7 +54,7 @@ function App() {
       
       <div className="center" >
         <Loader 
-          type="Plane"
+          type="Rings"
           color="#00BFFF"
           height={200}
           width={200}

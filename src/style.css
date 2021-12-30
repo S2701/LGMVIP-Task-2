@@ -10,8 +10,12 @@ body {
   max-width: 220px;
   margin: 5px;
 }
+.class{
+  width: 100px;
+  height: 100px;
+}
 .cen{
-  margin: 0 10px;
+  margin: 20px 80px;
 }
 .navbar {
   align-items: center;
@@ -162,7 +166,7 @@ section{
 .card {
     background-color: #272727;
     box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
-    padding: 30px;
+    padding: 40px;
     justify-content: center;
     align-items: center;
     width: 400px; 
@@ -175,20 +179,20 @@ section{
 }
 
 .card .text img{
-    height: 120px;
-    border-radius: 50%;
-  margin-bottom:10px;
+    height: 140px;
+    border-radius: 25%;
+  margin-bottom:20px;
 }
 
 .card .text h3 {
-    font-size: 40px;
-    font-weight: 400;
+    font-size: 35px;
+    font-weight: 300;
 }
 
 .card .text p:nth-of-type(1){
-    color: rgb(35, 182, 219);
-    font-size: 20px;
-    margin-top: -5px;
+    color: rgb(211, 106, 21);
+    font-size: 25px;
+    margin-top: 10px;
 }
 
 .card .text p:nth-of-type(2){
@@ -205,7 +209,7 @@ section{
 
 .card .links i{
     color: rgb(35, 182, 219);
-    font-size: 20px;
+    font-size: 25px;
     cursor: pointer;
 }
 
